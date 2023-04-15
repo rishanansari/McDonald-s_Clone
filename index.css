@@ -16,10 +16,11 @@
     
     .firstsection ul{
         display: block !important;
+        padding: 0px;
     }
     .firstsection ul li{
-        margin: 0px 10px 0px 10px;
-        padding: 5px 0px;
+        margin: 0px;
+        padding: 10px 0px;
         font-size: 1rem;
     }
     .thirdsection p{
