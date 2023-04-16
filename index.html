@@ -19,7 +19,8 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <!-- //naviagtion bar for lagre screen size   -->
+<nav class="navbar navbar-expand-lg d-lg-block d-none">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -51,7 +52,153 @@
       </form>
     </div>
   </div>
+</nav> 
+
+<!-- //mobile view navigation  -->
+<nav class="navbar navbar-expand-lg bg-body-white p-0 d-lg-none">
+<div class="container-fluid">
+  <div class="logomenu d-flex align-items-center">
+    <div class="logoMcD">
+      <img src="assets/arches-logo_108x108.jpg" alt="" width="48px">
+      </div>
+      <div class="menubar ps-2">
+        
+        <a class="text-black" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+          <i class="bi bi-list fs-2 "></i>
+        </a>
+        
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+          <div class="offcanvas-header py-2">
+            <!-- <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5> -->
+            <img src="assets/arches-logo_108x108.jpg" alt="" width="48px">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="language py-2">
+              <div class="d-flex justify-content-between">
+                <span>
+                  Languages
+                </span>
+                <a class="" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  <i class="bi bi-plus-circle"></i>
+                </a>
+              </div>
+              <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                  <ul class="m-0">
+                    <li>English</li>
+                    <li>Español</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="email py-2">
+              <span>Sign Up for Email </span>
+            </div>
+            <div class="career py-2">
+              <span>Career</span>
+            </div>
+            <hr>
+            <div class="ourmenu py-2">
+              <div class="d-flex justify-content-between">
+                <span>
+                  Our Menu
+                </span>
+                <a class="" data-bs-toggle="collapse" href="#collapseMenu" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  <i class="bi bi-plus-circle"></i>
+                </a>
+              </div>
+              <div class="collapse" id="collapseMenu">
+                <div class="card card-body">
+                  <ul class="m-0">
+                    <li>
+                      <a href="" class=" d-flex align-items-center text-dark text-decoration-none">
+                        <img src="https://s7d1.scene7.com/is/image/mcdonalds/breakfast_300x300:menu-category-desktop?resmode=sharp2" alt="" width="60px">
+                        <span class="px-2">BreakFast</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="" class=" d-flex align-items-center text-dark text-decoration-none">
+                        <img src="https://s7d1.scene7.com/is/image/mcdonalds/burgers_300x300:menu-category-desktop?resmode=sharp2" alt="" width="60px">
+                        <span class="px-2">Burgers</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="" class=" d-flex align-items-center text-dark text-decoration-none">
+                        <img src="https://s7d1.scene7.com/is/image/mcdonalds/nav_chickenfishsandwiches_160x160:menu-category-desktop?resmode=sharp2" alt="" width="60px">
+                        <span class="px-2">Chicken & Fish Sandwiches</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="" class=" d-flex align-items-center text-dark text-decoration-none">
+                        <img src="https://s7d1.scene7.com/is/image/mcdonalds/nav_mcnuggetscombo_160x160:menu-category-desktop?resmode=sharp2" alt="" width="60px">
+                        <span class="px-2">McNuggets® and Meals</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="" class=" d-flex align-items-center text-dark text-decoration-none">
+                        <img src="https://s7d1.scene7.com/is/image/mcdonalds/snacks_sides_300x300:menu-category-desktop?resmode=sharp2" alt="" width="60px">
+                        <span class="px-2">Fries® & Sides</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="" class=" d-flex align-items-center text-dark text-decoration-none">
+                        <img src="https://s7d1.scene7.com/is/image/mcdonalds/mccafe_300x300:menu-category-desktop?resmode=sharp2" alt="" width="60px">
+                        <span class="px-2">McCafé® Coffees</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="" class=" d-flex align-items-center text-dark text-decoration-none">
+                        <img src="https://s7d1.scene7.com/is/image/mcdonalds/nav_happy_meal_160x160:menu-category-desktop?resmode=sharp2" alt="" width="60px">
+                        <span class="px-2">Happy Meal®</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="app py-2">
+              <span>Download App</span>
+            </div>
+            <div class="rewards py-2">
+              <span>MyMcDonald's Rewards</span>
+            </div>
+            <div class="deals py-2">
+              <span>Exclusive Deals</span>
+            </div>
+            <div class="aboutfood py-2">
+              <span>About Our Food</span>
+            </div>
+            <div class="locate py-2">
+              <span>Locate</span>
+            </div>
+            <div class="gift py-2">
+              <span>Gift Cards</span>
+            </div>
+            <hr>
+            <div class="search d-flex justify-content-between py-2">
+              <span>Search</span>
+              <i class="bi bi-search"></i>
+            </div>
+            <div class="search d-flex justify-content-between py-2">
+              <a href="">Change your location</a>
+              <i class="bi bi-geo-alt-fill text-danger"></i>
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="orderbutton">
+    <button class="btn btn-warning ">Order Now</button>
+  </div>
+</div>
 </nav>
+
+
+
     <div class="container-fluid">
       <!-- first row  -->
       <div class="container-lg py-5">
